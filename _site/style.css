@@ -1,0 +1,195 @@
+body, html {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+p {
+  color: #797979;
+  font-size: 1em;
+  line-height: 1.7em; }
+
+img {
+  max-width: 100%; }
+
+.liste {
+  padding-left: 1em; }
+  .liste li {
+    color: #797979;
+    font-size: 1em;
+    line-height: 1.7em; }
+
+.active {
+  color: #63bdf1; }
+
+.nom {
+  margin-top: 0em; }
+
+.icon-service {
+  margin-top: 2em; }
+
+input, textarea {
+  display: inherit;
+  padding: 0.5em;
+  width: 300px;
+  max-width: 90%;
+  margin: 0.5em;
+  margin-left: 0em;
+  border: 1px solid #d6d6d6;
+  margin-bottom: 2em; }
+
+input[type="submit"] {
+  width: 100px;
+  max-width: 90%;
+  font-size: 0.9em;
+  transition: all 900ms; }
+
+input[type="submit"]:hover {
+  background-color: #203047;
+  color: white;
+  cursor: pointer; }
+
+nav {
+  position: absolute;
+  width: 100%; }
+  nav ul {
+    text-align: center; }
+    nav ul li {
+      display: inline-block;
+      color: white; }
+
+#email-site {
+  font-weight: normal;
+  color: #ffa215; }
+
+#homepage-hero {
+  background-image: url(/img/background.jpg);
+  background-size: cover; }
+  #homepage-hero .homepage-wrapper {
+    padding: 6em;
+    text-align: center; }
+    #homepage-hero .homepage-wrapper h1 {
+      color: white;
+      font-size: 3em; }
+      #homepage-hero .homepage-wrapper h1 span {
+        font-weight: 300; }
+      #homepage-hero .homepage-wrapper h1 .yellow {
+        color: #FFAC15; }
+
+@media only screen and (max-width: 610px) {
+  #homepage-hero .homepage-wrapper {
+    padding: 4em; }
+    #homepage-hero .homepage-wrapper h1 {
+      font-size: 2.5em; } }
+.ul-list {
+  list-style: none;
+  padding-left: 0em; }
+  .ul-list li {
+    padding-top: 1.3em;
+    color: #b73e1c; }
+
+#area1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 1050px;
+  max-width: 90%;
+  margin: 1em auto;
+  border-top: 2px solid #efefef;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+  #area1 .wrapper-left {
+    padding-right: 1em;
+    width: 750px;
+    max-width: 100%; }
+  #area1 .wrapper-right {
+    border-left: 2px solid #f1f1f1;
+    padding-left: 2em;
+    box-sizing: border-box; }
+    #area1 .wrapper-right #port {
+      margin-top: 1em;
+      width: 100px;
+      border-radius: 50%;
+      height: 100px;
+      object-fit: cover; }
+
+@media only screen and (max-width: 1000px) {
+  #area1 {
+    display: block; }
+    #area1 .wrapper-left {
+      width: auto;
+      display: block; }
+    #area1 .wrapper-right {
+      border-top: 2px solid #f1f1f1;
+      padding-top: 2em;
+      padding-left: 0em;
+      border-left: none; } }
+footer {
+  text-align: center;
+  background-color: #ffa215;
+  display: flex;
+  justify-content: space-around; }
+  footer p {
+    color: white;
+    display: inline-block; }
+  footer h3 {
+    color: white;
+    font-weight: normal;
+    display: inline-block; }
+  footer a {
+    color: white;
+    text-decoration: none; }
+
+#menu {
+  display: none; }
+
+#bigmenu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: none;
+  z-index: 9999; }
+  #bigmenu ul {
+    padding: 2em; }
+    #bigmenu ul a {
+      text-decoration: none;
+      display: inherit; }
+      #bigmenu ul a li {
+        list-style: none;
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        padding-top: 0.5em;
+        display: inline-block; }
+        #bigmenu ul a li:hover {
+          color: #ffbc52; }
+
+#bigmenu.yes {
+  display: block; }
+
+#lmenu {
+  position: absolute; }
+  #lmenu ul {
+    margin: 0;
+    padding-left: 0em;
+    text-align: center;
+    padding: 0.9em; }
+    #lmenu ul li {
+      color: white;
+      padding: 0.5em;
+      display: inline-block; }
+      #lmenu ul li:hover {
+        cursor: pointer;
+        color: #ffa215; }
+
+@media only screen and (max-width: 610px) {
+  #lmenu ul {
+    display: none; }
+
+  #menu {
+    display: block;
+    color: white;
+    cursor: pointer;
+    padding: 0em;
+    display: inline-block;
+    padding-left: 1em; } }
