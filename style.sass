@@ -8,7 +8,7 @@ body, html
 	-moz-osx-font-smoothing: grayscale
 
 p 
-	color: #797979
+	color: #454545
 	font-size: 1em
 	line-height: 1.7em
 
@@ -16,19 +16,67 @@ img
 	max-width: 100%
 
 .liste
-	padding-left: 1em
+	padding-left: 0em
 	li 
-		color: #797979
+		color: #545454
 		font-size: 1em
 		line-height: 1.7em
+		list-style: none
+		border-bottom: 1px solid #ededed
+		padding-bottom: .5em
+		padding-top: .5em
 
-.active
-	color: #63bdf1
 
+.decsription-mid
+	font-size: 1.7em
+	text-align: center
+	border-top: 1px solid#d2d2d2
+	border-bottom: 1px solid #d2d2d2
+	padding: 0.3em
+	color: #a5a3a3
+	width: 1040px
+	max-width: 90%
+	margin: 1em auto
+
+@media only screen and (max-width: 610px)
+	.decsription-mid
+		font-size: 1.3em
+
+
+
+h1
+	font-size: 2.5em
+	color: #444444
+
+h2
+	font-size: 1.6em
+	color: #444444
+
+h4
+	font-size: 1.5em
+	color: #3c3c3c
 
 .nom
 	margin-top: 0em
 
+.first
+	margin-top: 0em
+
+.active
+	color: #ffb50d
+
+button
+	background-color: #4374fd
+	font-size: 1.4em
+	color: white
+	border-radius: 5%
+	border: none
+	padding: .5em 1em .5em 1em
+	margin-top: 1.5em
+	&:hover
+		cursor: pointer
+
+		
 .icon-service
 	margin-top: 2em
 
@@ -54,7 +102,6 @@ input[type="submit"]:hover
 	cursor: pointer
 
 nav
-	position: absolute
 	width: 100%
 	ul
 		text-align: center
@@ -68,26 +115,42 @@ nav
 	color: #ffa215
 
 #homepage-hero	
-	background-image: url(/img/background.jpg)
-	background-size: cover
+	border-top: 10px solid #ffbe07
+	background-image: url(/img/texture2.png)
+	background-size: 115px
+	background-color: #4D7FFD
 	.homepage-wrapper
-		padding: 6em
-		text-align: center	
-		h1
+		text-align: center
+		height: 100
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		padding: 5em
+		box-sizing: border-box
+		.site-description-up
 			color: white
-			font-size: 3em
-			span 
-				font-weight: 300
+			font-weight: 600
+			letter-spacing: 0.15em
+			margin-bottom: 0em
+		.site-description-down
+			font-weight: 800
+			color: white
+			font-size: 1.9em
+			line-height: 1.3em
+			margin: 0
 			.yellow
-				color: #FFAC15
+				color: #ffbe07
+
 
 @media only screen and (max-width: 610px)
 	#homepage-hero	
 		.homepage-wrapper
-			padding: 4em
-			h1
-				font-size: 2.5em
-
+			.site-description-up
+			.site-description-down
+				margin-top: .5em
+				font-size: 1.5em
+				line-height: 1.2em
 
 
 .ul-list
@@ -95,7 +158,8 @@ nav
 	padding-left: 0em
 	li 
 		padding-top: 1.3em
-		color: #b73e1c
+		color: #444444
+		font-weight: 800
 
 
 
@@ -104,9 +168,8 @@ nav
 	grid-template-columns: 1fr 1fr
 	width: 1050px
 	max-width: 90%
-	margin: 1em auto
-	border-top: 2px solid #efefef
-	padding-top: 2em
+	margin: 0em auto
+	padding-top: 0em
 	padding-bottom: 2em
 	.wrapper-left
 		padding-right: 1em
@@ -117,11 +180,15 @@ nav
 		padding-left: 2em
 		box-sizing: border-box
 		#port
-			margin-top: 1em
-			width: 100px
-			border-radius: 50%
-			height: 100px
+			width: 150px
+			height: 150px
 			object-fit: cover
+		h4
+			margin-bottom: 1em
+			text-transform: uppercase
+			font-size: 1.4em
+			color: #141414
+			font-weight: 500
 
 
 @media only screen and (max-width: 1000px)
@@ -138,21 +205,32 @@ nav
 
 
 footer
-	text-align: center
-	background-color: #ffa215
+	background-image: url(/img/texture2.png)
+	background-size: 115px
+	background-color: #4D7FFD
 	display: flex
 	justify-content: center
+	flex-direction: column
+	text-align: center
 	p
 		color: white
 		display: inline-block
-	h3
-		color: white
-		font-weight: normal
-		display: inline-block
-	a
-		color: white
-		text-decoration: none
-		padding-left: 1em
+		a
+			color: white
+			text-decoration: none
+	.under
+		a
+			color: white
+			text-decoration: none
+			padding-left: 1em
+			h3
+				color: white
+				font-weight: normal
+				display: inline-block
+				margin-top: 0em
+				&:hover
+					color: #ffb50d
+			
 
 @media only screen and (max-width: 669px)	
 	footer
@@ -195,19 +273,22 @@ footer
 
 
 #lmenu
-	position: absolute
+	background-image: url(/img/texture2.png)
+	background-size: 115px
+	background-color: #4D7FFD
+	border-top: 2px solid #ffbe08
 	ul 
 		margin: 0
 		padding-left: 0em
 		text-align: center
 		padding: .9em
 		li 
-			color: white
 			padding: .5em
 			display: inline-block
+			font-weight: 800
 			&:hover
 				cursor: pointer
-				color: #ffa215
+				color: #ffb50d
 
 
 
