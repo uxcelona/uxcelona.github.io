@@ -1,2 +1,4 @@
+Sitemap: https://wdceee.com/sitemap.xml
+
 User-agent: * 
 Disallow: /imoportant.html
