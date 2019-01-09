@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
-https://jovial-mestorf-d1398e.netlify.com/* https://www.wdceee.com/:splat 301!
+
+https://jovial-mestorf-d1398e.netlify.com/* https://wdceee.com/:splat 301!
