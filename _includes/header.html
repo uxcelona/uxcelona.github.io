@@ -1,39 +1,48 @@
-<header class="block block-header-1">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85993724-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <div class="block-header-1--logo">
-  <a href="/">
-    <img src="/assets/img/logo.svg" alt="Logo" width="30px">
-  </a>
-</div>
-              
-  <nav class="block-header-1--nav">
+  gtag('config', 'UA-85993724-6');
+</script>
+
+
+   <!-- styles.css Link -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- font Link -->
+   <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet">
+
+    <!-- charset -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Shizz -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+</head>
+<body>
+
+
+<nav id="bigmenu">
+
+<h3 id="menu" onclick="myFunction()">back</h3>
+
     <ul>
-     <li class="nav-item">
-        <a href="/" {% if page.url == "/" %} style="font-weight:bold;" {% endif %}>
-        Home
-        </a>
-      </li>
 
-      <li class="nav-item dropdown">
-
-        <a class="dropbtn" href="/service" {% if page.url == "/service/" %} style="font-weight:bold;" {% endif %}>Service</a>
-
-      <div class="dropdown-content">
-
-          <a href="/service/ui-design-barcelona" >UI Design</a>
-          <a href="/service/seo-barcelona">SEO Marketing</a>
-          <a href="/service/web-development-barcelona">Web Development</a>
-          <a href="/service/wordpress-barcelona">WordPress Service</a>
-          <a href="/service/responsive-web-design-barcelona">Responsive Web Design</a>
-
-      </div>
-
-    </li>
-      
-
-      <a class="button primary small block-header-2--cta" href="/contact">Contact</a>
+        <a href="/"><li>Home</li></a>
+        <a href="/web-design-barcelona"><li>Web Design</li></a>
+        <a href="/web-development-barcelona"><li>Web Development</li></a>
+        <a href="/seo-barcelona"><li>SEO Marketing</li></a>
+        <a href="/wordpress-barcelona"><li>WordPress Webdesign</li></a>
+        <a href="/responsive-web-design-barcelona"><li>Responsive Webdesign</li></a>
+        <a href="/portfolio"><li>Portfolio </li></a>
+        <a href="/contact"><li>Contact</li></a>
 
     </ul>
-  </nav>
-              
-</header>
+</nav>
