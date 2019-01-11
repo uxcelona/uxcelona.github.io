@@ -8,12 +8,17 @@
     "image":"https://wdceee.com/assets/img/portrait-of-me-bunker del carmel.jpg",
 
     "about":{
-        "@type":"LocalBusiness",
+        "@type":"Service",
         "url":"https://wdceee.com/about",
-        "areaServed": ["Barcelona", "Tarragona", "Montserrat", "Sitges"],
+        "areaServed": [
+		{
+			"@type": "City",
+			"name": "Barcelona",
+			"@id": "https://en.wikipedia.org/wiki/Barcelona"
+        }
+                        ],
         "logo":"https://wdceee.com/assets/img/logo.svg",
         "description":"Freelance Web Designer for Barcelona",
-        "parentOrganization":"https://wdceee.com/",
         "name":"Wdceee",
         "@id":"https://wdceee.com/"},
         "@id":"https://wdceee.com/about"
