@@ -1,7 +1,6 @@
 title: SunshineVaniCaramel by Lukasz Adam
 author: Lukasz Adam
 
-gem: "jekyll", "3.4.3"
 
 include:
   - redirects
