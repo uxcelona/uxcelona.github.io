@@ -335,6 +335,7 @@ input[type="submit"]:hover {
   .werbung .container .columns {
     display: block;
     text-align: center;
+    text-align: center;
   }
 
   .werbung .container .columns .column {
