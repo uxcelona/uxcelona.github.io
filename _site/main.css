@@ -139,7 +139,10 @@ p{font-weight:400;color:#666}
 
 
 
+.block-three-column-5 .column {
 
+  flex: 1;
+}
 
 .piccs img {
   margin-left: 1em;
@@ -313,4 +316,14 @@ input[type="submit"]:hover {
 
 
   .block-media-1 {
-    padding: 0em;
+    padding: 0em; }
+
+
+.werbung .container .columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.werbung .container .columns .column {
+  flex: 1;
+}
