@@ -327,3 +327,13 @@ input[type="submit"]:hover {
 .werbung .container .columns .column {
   flex: 1;
 }
+
+
+
+@media screen and (max-width:600px){ 
+
+  .werbung .container .columns {
+    flex-direction: column;
+  }
+  
+}
