@@ -346,3 +346,15 @@ input[type="submit"]:hover {
 }
   
 
+
+
+
+.blog {
+  width: 850px;
+  max-width: 90%;
+  margin: 2em auto;
+  list-style: none;
+}
+.article-header {
+  margin: 1em 0em;
+}
