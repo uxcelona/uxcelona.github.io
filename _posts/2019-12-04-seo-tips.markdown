@@ -1,0 +1,85 @@
+---
+title:  Why is SEO important?
+serptitle: Why is SEO important? - Freelance Web Designer Barcelona
+layout: article
+author: Wdcee
+categorie: SEO
+permalink: /why-seo-important
+image: /why-seo-important.png
+---
+
+Why is SEO important? SEO is the work of search engines. You might know them, Google or Bing. They browse billions of pages and try to get the whole web. They analyze the content, then organize it into huge databases. As a glossary, the data collected is classified and ordered by importance.
+
+So when you use google the find the best coffee shop in Barcelona, the results that are presented to you come from a huge database. This database is full of information that search engines built over time by continuously scanning the web.
+
+With the birth of search engines in the late 1990s, the entire web has undergone a revolution. Before there were site directories. You might now Yahoo’s.
+
+Can you imagine today working without a search engine? It is close to impossible.
+It would be so difficult. Today we can use Keywords to find anything we want. Simply by opening up a search engine and entering a keyword.
+
+This revolution took place during the 2000s. What a year. Besides the tech bubble there were other things going on. This year created a new field of jurisdiction that is called (rightly or wrongly) in several ways: Search Engine Optimization.
+
+Basically, it describes work that you can do to get a better ranking for a special Keyword.
+
+Back then SEO consisted of only in modifying the HTML "Meta" tags of a web page. This was enough to make a site appear on the first page. Today SEO is much more. It is creative. It is a strategy and it fills complete books.
+
+Embodied by SEO analysts, SEO specialists or Content Marketing Managers.
+
+If you have a website, it is very important that any website is going to be optimized for search engines. 
+
+Why?
+
+Because then visitors can easily find your business by simply using Keywords.
+
+How do search engines work?
+
+The work of search engines never stops. While you reading this thousand of pages are being crawled day by day. 
+
+Why? 
+
+To make the best of the best visible. At a very regular rate, Google and Bing are crawling this kind of new content.
+
+They continuously scan existing web pages and search for newly created content or website. They organize all the information. All the blog articles, news, images or videos. In the end, they offer it to us, the users.
+
+So SEO is short for Search Engine Optimisation. If you have a website, this website should meet a set of technical criteria to help search engines find what they are looking for. With our help, search engines can better identify your content. 
+
+The better you do your SEO work, the faster your page will come up in the search results. Also the faster you will grow your organic traffic. Search engines will be able to classify your page in their database. That is why you should seek out to optimize your website and meet all the technical SEO points.
+
+Is SEO also important for local business?
+ 
+Yes, it is, let’s take this case for example.
+
+You open up a new bakery in Barcelona. You have researched all the ingredients, you want to offer only quality stuff to your customers. Who knows, you might have taken a whole trip around the world just to find the best coffee on this beautiful planet. 
+
+But what if, no one knows? Simply, because you have created a website, it does not make any visitors. People won’t remember your URL just because you have created it.
+
+So the simple creation of a website and its online availability does not mean, that this website also will be referenced by search engines. 
+
+You need to give them a helping hand. This way they can easily analyze it effectively, that's search engine optimization!
+
+Without reference to search engines, you won’t get any organic traffic.
+
+What can Id do to boost my SEO in 2020?
+
+I know it is still 2019, but the quicker you do it the better. The first SEO steps you can take is to get to know the search console. This is the base for every SEO project.
+
+Report your presence to the search engine via the search console. You can do this by submitting it. There won’t be any trouble if you don’t do this but this step is necessary, to make sure that the search engine will read your website sooner or later.
+
+
+
+
+Other then that, there is time to set the basics. We start by using the power of SEO Tags.
+
+Fill in all the meta tags in your Header. These are here for the search engines.
+Meta tags are a set of HTML tags located in the header of each page. They are not visible when you visit the web pages. In fact, if, the Meta Title tag is the one that displays the title of the page in the tab of your browser.
+
+Here are some of the Meta tags:
+
+- the title tag. Describes the title of the current page.
+- the description tag indicates a description of the page.
+- the robot tag tells search engines whether or not they can reference the current page.
+- schema. 
+
+Schema is the language of search engines. You can use schema to tell them more about your website. The check your schema code use the schema generator.
+
+

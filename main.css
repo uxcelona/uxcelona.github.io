@@ -358,3 +358,9 @@ input[type="submit"]:hover {
 .article-header {
   margin: 1em 0em;
 }
+
+
+
+img {
+  max-width: 99%;
+}

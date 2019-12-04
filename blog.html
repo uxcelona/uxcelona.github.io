@@ -1,0 +1,56 @@
+---
+title: Web Design & SEO Blog 2019 [News]
+layout: default
+---
+
+
+{% include header.html %}
+
+
+<section class="block block-hero-1">
+        <div class="container">
+          <h1><span class="light">My Web Design & SEO Blog</span></h1>
+        </div>
+</section>
+
+
+
+
+
+<section>
+    <div class="wrapper">
+
+       
+
+
+
+    {% for post in site.posts %}
+
+        <article>
+
+    
+        <div class="blog--image">
+            <img class="feat-img" src="{{ site.baseurl }}{{ post.image }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" />
+        </div>
+
+        <div class="blog--content">
+          <h2>{{ post.title | escape }}</h2>
+          <p class="meta">{{ post.author }} <span>| {{ post.categorie}}</span></p>
+          <p class="excerpt">{{ post.excerpt }}</p>
+          <br><br>
+          <a href="{{ post.url | relative_url }}"><button>Read More</button></a>
+        </div>
+
+        </article>
+
+      {% endfor %}
+
+
+
+
+</div>
+</section>
+
+
+
+{% include footer.html %}
