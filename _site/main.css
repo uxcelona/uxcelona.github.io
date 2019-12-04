@@ -364,3 +364,7 @@ input[type="submit"]:hover {
 img {
   max-width: 99%;
 }
+
+p {
+  margin: 1.5em 0em;
+}
