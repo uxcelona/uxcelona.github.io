@@ -44,7 +44,7 @@ If you have a website, it is very important that any website is going to be opti
 
 <h2>Why optimize for SEO?</h2>
 
-Because then visitors can easily find your business by simply using Keywords. Every business and every service can be defined by a keyword. The process to find these keywords is called Keyword Research. It is a part of every SEO campaign. Some Keywords
+Because then visitors can easily find your business by simply using Keywords. Every business and every service can be defined by a keyword. The process to find these keywords is called <a href="https://en.wikipedia.org/wiki/Keyword_research" target="_blank">Keyword Research.</a> It is a part of every SEO campaign. Some Keywords
 are harder to rank for then others. Therefore it is important to find keywords that are easy to rank for. With a local business, this might be the case. With a international blog article it might be harder. 
 
 If it is harder because there is lot's of competition, then you need to built authority by getting some Backlinks.
