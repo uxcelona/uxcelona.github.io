@@ -1,6 +1,6 @@
 ---
 title:  Why is SEO important?
-serptitle: Why is SEO important? - Freelance Web Designer Barcelona
+posttitle: Why is SEO important? - Freelance Web Designer Barcelona
 layout: article
 author: Wdcee
 categorie: SEO
