@@ -21,15 +21,18 @@ Your website needs to stand out. There are hundreds of sites competing with you.
 
 Like I said, you must ensure that your visitor's experience is as pleasant as possible so that they can easily find the information or product they need and make their purchase or appointment on your site as flawless as possible.
 
-How to improve the user experience on your website?
+<h2>How to improve the user experience on your website?</h2>
 
 The UX design is a subject that affects the webdesign of your site in its entirety: ergonomics, choice of the architecture of your pages, your menu, your colors, your call to action buttons buttons. The slightest word has every importance!
-Here we reveal UX design tips to optimize the user experience and convert your visitors into customers.
+Here we reveal UX design tips to optimize the user experience and convert your visitors into customers. This will also help
+to improve your overall SEO. If you don't know about SEO, you should check out <a href="/why-seo-important">why SEO is so important.</a>
 
 <h2>Loading speed</h2>
 
 Optimize the loading speed of your website
 It's not design per se, but first of all, the speed at which your site loads impacts the user experience: indeed, what could be more frustrating than being stuck on a page that doesn't load!
+
+It's not really a design aspect, but still very important, the speed at which your site loads impacts the user experience: indeed, what could be more frustrating than being stuck on a page that doesn't load!
 
 If your page takes more than 3 seconds to load, your visitor may leave your site, increasing your bounce rate.
 
