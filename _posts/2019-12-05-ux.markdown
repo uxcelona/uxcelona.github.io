@@ -4,6 +4,7 @@ layout: article
 author: Wdcee
 categorie: User Experience
 permalink: /user-experience-tips
+image: /user-experience-tips-icon.svg
 excerpt_separator: <!--more-->
 ---
 
