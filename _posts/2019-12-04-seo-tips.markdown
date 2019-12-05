@@ -8,8 +8,6 @@ permalink: /why-seo-important
 image: /why-seo-important.png
 ---
 
-<h1>Why is SEO important?</h1>
-
 SEO is the work of search engines. You might know them, Google or Bing. They browse billions of pages and try to get the whole web. They analyze the content, then organize it into huge databases. As a glossary, the data collected is classified and ordered by importance.
 
 So when you use google the find the best coffee shop in Barcelona, the results that are presented to you come from a huge database. This database is full of information that search engines built over time by continuously scanning the web.
