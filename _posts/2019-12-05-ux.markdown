@@ -1,5 +1,5 @@
 ---
-title:  User Experience Design Tips 2019
+title:  User Experience Design Tips 2019 - Freelance Web Designer Barcelona
 layout: article
 author: Wdcee
 categorie: User Experience
@@ -31,11 +31,15 @@ to improve your overall SEO. If you don't know about SEO, you should check out <
 
 Optimize the loading speed of your website
 
-It's not really a design aspect, but still very important, the speed at which your site loads impacts the user experience: indeed, what could be more frustrating than being stuck on a page that doesn't load!
+As a <a href="/">Freelance Web Designer for Barcelona</a> I try to offer the best solution to my customers. It does not really help when my page need 8 seconds to load. Also 5 seconds does not help. My goal for my page it to load between 1-2 seconds.
 
-If your page takes more than 3 seconds to load, your visitor may leave your site, increasing your bounce rate.
+It's not really a design aspect, but still very important, the speed at which your site loads impacts the user experience: indeed, what could be more frustrating than being stuck on a page that doesn't load. I am sure you knwo these kind of pages.
 
-Conclusion: If you want your visitors to stay on your website, make sure that your site loads quickly, for example by compressing your images, JPEG or PNG images and not overloading your video pages. 
+If your page takes more than 3 seconds to load, your visitor may leave your site, increasing your bounce rate. Then never come back.
+
+So what is the solution?
+
+If you want your visitors to stay on your website, make sure that your site loads quickly, for example by compressing your images, JPEG or PNG images and not overloading your video pages. 
 
 <h2>Optimize action buttons with UX design</h2>
 
