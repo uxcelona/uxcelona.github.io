@@ -30,7 +30,6 @@ to improve your overall SEO. If you don't know about SEO, you should check out <
 <h2>Loading speed</h2>
 
 Optimize the loading speed of your website
-It's not design per se, but first of all, the speed at which your site loads impacts the user experience: indeed, what could be more frustrating than being stuck on a page that doesn't load!
 
 It's not really a design aspect, but still very important, the speed at which your site loads impacts the user experience: indeed, what could be more frustrating than being stuck on a page that doesn't load!
 
