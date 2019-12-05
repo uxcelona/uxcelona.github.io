@@ -4,6 +4,7 @@ layout: article
 author: Wdcee
 categorie: Barcelona
 permalink: /why-I-love-barcelona
+image: /barceloneta_beach.png
 excerpt_separator: <!--more-->
 ---
 
