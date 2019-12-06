@@ -14,13 +14,13 @@ But there is one topic I have to talk about and this is Barcelona. I want to tel
 
 <h1>Why I love Barcelona</h1>
 
-You might have been here on vacation or you might live here, but I think it is a good idea to give you a perspective, why as a web designer, Barcelona is one of the best cities you could work from.
+You might have been here on vacation or you might live here, but I think it is a good idea to give you a perspective, why as a <a href="/">web designer</a>, Barcelona is one of the best cities you could work from.
 
 <!--more-->
 
 <h2>Barcelona is for creatives.</h2>
 
-Not only because of Gaudi’s work, but it is also that there is so much stuff you can take inspiration from. Imaging going to bunker de Carmel and enjoying a beautiful sunset with some Catalan wine and some tapas. You can relax and your brain is just flowing with ideas.
+Not only because of <a href="https://fr.wikipedia.org/wiki/Antoni_Gaud%C3%AD" target="_blank">Gaudi’s</a> work, but it is also that there is so much stuff you can take inspiration from. Imaging going to <a href="https://en.wikipedia.org/wiki/Tur%C3%B3_de_la_Rovira" target="_blank">bunker de Carmel</a> and enjoying a beautiful sunset with some Catalan wine and some tapas. You can relax and your brain is just flowing with ideas.
 
 Sometimes I also love to take an early walk through the El Born neighborhood. It is not far away from my apartment and I love to get some fresh air and some coffee, sit down at one of the cafes and enjoy the view of Barcelona waking up.
 
