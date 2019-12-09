@@ -37,8 +37,7 @@ layout: default
           <h2>{{ post.title | escape }}</h2>
           <p class="meta">{{ post.author }} <span>| {{ post.categorie}}</span></p>
           <p class="excerpt">{{ post.excerpt }}</p>
-          <br><br>
-          <a href="{{ post.url | relative_url }}"><button>Read More</button></a>
+          <a href="{{ post.url | relative_url }}"><button class="read_button">Read More</button></a>
         </div>
 
         </article>

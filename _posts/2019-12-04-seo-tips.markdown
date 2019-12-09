@@ -67,7 +67,7 @@ The better you do your SEO work, the faster your page will come up in the search
  
 Yes, it is, let’s take this case for example.
 
-You open up a new bakery in Barcelona. You have researched all the ingredients, you want to offer only quality stuff to your customers. Who knows, you might have taken a whole trip around the world just to find the best coffee on this beautiful planet.
+You open up a new bakery in <a href="/why-I-love-barcelona">Barcelona</a>. You have researched all the ingredients, you want to offer only quality stuff to your customers. Who knows, you might have taken a whole trip around the world just to find the best coffee on this beautiful planet.
 
 <figure>
 <img src="/carrer-de-pau-barcelona.png" alt="carrer de pau barcelona search for a cofee shop">
@@ -86,7 +86,8 @@ Without reference to search engines, you won’t get any organic traffic.
 
 <h2>What can I do to boost my SEO in 2020?</h2>
 
-I know it is still 2019, but the quicker you do it the better. The first SEO steps you can take is to get to know the search console. This is the base for every SEO project.
+I know it is still 2019, but the quicker you do it the better. The first SEO steps you can take is to get to know the search console. This is the base for every SEO project. I see that so many times while working as a 
+<a href="/service/seo-barcelona">Freelance SEO for Barcelona.</a>
 
 Report your presence to the search engine via the search console. You can do this by submitting it. There won’t be any trouble if you don’t do this but this step is necessary, to make sure that the search engine will read your website sooner or later.
 

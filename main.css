@@ -368,3 +368,33 @@ img {
 p {
   margin: 1.5em 0em;
 }
+
+
+
+
+.feat-img {
+  width: 200px;
+  max-width: 90%;
+}
+
+
+.read_button {
+  padding: 1.5rem 2rem;
+    border-radius: 5px;
+    background-color: #181818;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    color: #f9cb47;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+article {
+  padding: 0em 0em 7em 0em;
+}
+
+
+figure {
+text-align: center;
+padding: 3em;
+}
