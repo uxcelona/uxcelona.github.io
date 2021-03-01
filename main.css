@@ -137,6 +137,13 @@ p{font-weight:400;color:#666}
 -----------------------**/
 
 
+.wrapper_2 {
+  max-width: 90%;
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
 
 
 .block-three-column-5 .column {
@@ -220,7 +227,7 @@ p{font-weight:400;color:#666}
 
 
 .wrapper {
-  width: 750px;
+  width: 1100px;
   max-width: 90%;
   margin: 5em auto;
 }
