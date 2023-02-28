@@ -1,5 +1,5 @@
 ---
-title:  User Experience Design Tips 2019 - Freelance Web Designer Barcelona
+title:  User Experience Design Tips 2023 - Freelance Web Designer Barcelona
 layout: article
 author: Wdcee
 categorie: User Experience
