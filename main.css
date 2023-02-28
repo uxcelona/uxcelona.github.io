@@ -460,3 +460,18 @@ padding: 3em;
 
 }
   
+
+.container p {
+  color: #181818;
+}
+
+
+.illustration_section {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.illustration_section p {
+  text-align: center;
+  color: #181818;
+}
