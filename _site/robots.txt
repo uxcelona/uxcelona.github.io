@@ -1,4 +1,0 @@
-Sitemap: https://wdceee.com/sitemap.xml
-
-User-agent: * 
-
