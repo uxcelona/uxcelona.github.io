@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://wordpress-castellon.github.io',
+    site: 'https://uxcelona.github.io',
 });
