@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Barcelona
 
 ```sh
 npm create astro@latest -- --template basics
