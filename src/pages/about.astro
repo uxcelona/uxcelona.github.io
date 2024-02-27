@@ -1,0 +1,212 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+
+<Layout title="About Me Uxcelona">
+	<main>
+
+        <h1>About Me</h1>
+
+        <p>
+            Hello there! 🌟 I'm Lukasz Adam, a freelance web designer based in the heart of Barcelona, the city that never sleeps when it comes to vibrancy and dynamic communities. You know, there's something absolutely magical about Barcelona. It's not just the stunning architecture or the sun-kissed beaches that make it special. It's the people, the energy, and the creativity flowing through its streets that truly captivate me.
+            <br><br>
+            Here’s the truth: I've been weaving the web in this fantastic city for over 7 years now. Yeah, that’s right, seven whole years! Time flies when you're doing what you love, surrounded by an environment that constantly inspires and challenges you. I've had the privilege of working with a wide range of clients, from local startups to established international brands, and each project has been a journey of exploration and growth.
+            <br><br>
+            But why do I love Barcelona so much? Well, it's simple. The vibrant community here is like no other. There's an infectious spirit of innovation and a sense of belonging that you can't help but fall in love with. It's this unique atmosphere that fuels my creativity and drives me to design websites that not only look beautiful but also connect and resonate with people on a deeper level.
+            <br><br>
+            In fact, here's what I believe: great design is more than just aesthetics. It's about telling a story, building an experience, and creating an emotional connection. That's what I strive to achieve with each project I take on. By blending my passion for design with the vibrant energy of Barcelona, I aim to create digital experiences that are not only visually stunning but also deeply impactful.
+            <br><br>
+            So, whether you're a local business looking to make your mark online or an international brand seeking to connect with your audience in a more meaningful way, I'm here to help you bring your vision to life. Let's create something amazing together!
+
+
+        </p>
+
+
+		
+		<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<textarea name="message" placeholder="Your Message" required></textarea>
+			<button type="submit">Send</button>
+	   </form>
+
+
+	</main>
+
+	<footer>
+
+		<span>Copyright 2024 &copy;Freelance Web Designer Barcelona</span>
+		<a href="/free-svg-illustrations">Free Illustrations</a>
+
+
+	</footer>
+
+
+</Layout>
+
+
+
+<style>
+
+	body, html {
+		overflow-x: hidden;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer a {
+		display: block;
+		color: white;
+		margin: 22px;
+	}
+
+	.main_pic {
+		text-align: center;
+	}
+
+	#localseophoto {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+
+	footer {
+		color: white;
+	}
+
+
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	.astro-a {
+		position: absolute;
+		top: 98px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 1200px;
+		max-width: 90%;
+		height: auto;
+		z-index: -1;
+	}
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 24px;
+		margin-top: 12px;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+
+	img	{
+		max-width: 100%;
+	}
+
+	span {
+		text-align: center;
+		display: block;
+	}
+
+
+	/* Overall form styling */
+form {
+    max-width: 100%; /* Sets a maximum width */
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px; /* Adds some space inside the form */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"] {
+    width: 97%; /* Full width */
+    padding: 10px; /* Comfortable text padding */
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+	font-size: 18px;
+	font-family: system-ui, sans-serif;
+}
+
+
+
+/* Styling for the submit button */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Same padding as input fields */
+    background-color: #8e44eb; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor changes to pointer */
+    font-size: 16px; /* Larger text size */
+}
+
+/* Change button style on hover */
+button:hover {
+    background-color: #ba91f2; /* Slightly darker green on hover */
+}
+
+/* Styling for the textarea */
+textarea {
+	font-size: 18px;
+    width: 97%; /* Full width to match the input fields */
+    padding: 10px; /* Comfortable padding */
+    margin-bottom: 15px; /* Space below the textarea */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    min-height: 100px; /* Minimum height */
+    resize: vertical; /* Allow vertical resizing only */
+	font-family: system-ui, sans-serif;
+}
+
+/* Change textarea style on focus */
+textarea:focus {
+    border-color: #4CAF50; /* Highlighted border color */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
+}
+</style>
