@@ -1,0 +1,218 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+
+<Layout title="Freelance WordPress Developer Barcelona">
+
+
+	<main>
+		<Header/>
+		<h1>Freelance <span class="text-gradient">WordPress</span> Developer Barcelona</h1>
+		
+		<span>Your WordPress Freelancer in Barcelona. No matter if you have an existing website or want to create a fresh WordPress install.</span>
+		<p class="instructions">
+			You're looking for someone who's really good with WordPress in Barcelona, right? You're in luck because that's exactly what I do. I'm all about making websites using WordPress, and here’s why I think you'll love working with me.
+		</p>
+
+       
+
+        <p>First things first, WordPress is like my favorite toy. I can do so much with it, from starting a brand-new website to adding cool features that make your website stand out. I love using WordPress because it lets me make websites that are just right for what you need.</p>
+        <p>Why do I choose WordPress? Because it lets me make your website exactly how you want it. Think of it like drawing your dream picture with all the colors you can imagine. That's what I do for my clients. No matter if you're just starting out or you've got a big idea, I'm here to help. I make sure your website fits what you're looking for and is easy for you to use when I'm done.</p>
+        <h2>Here’s what you get when you work with me:</h2>
+        <ul>
+            <li><strong>Just for You:</strong> I make your website look and work the way you want it to. It's all about what you need.</li>
+            <li><strong>Easy to Use:</strong> I build websites that are simple to get around, for you and anyone who visits your site.</li>
+            <li><strong>Looks Good on Phones and Computers:</strong> Your website will look great no matter how people are looking at it.</li>
+            <li><strong>Easy to Find:</strong> I'll help make your website easy for people to find when they search online.</li>
+        </ul>
+        <p>I keep things straightforward, so you always know what you're getting, and you don't need to be a tech expert to keep your site up and running. How does that sound?</p>
+        <img src="/wordpress-freelancer-barcelona-webdesign.webp" alt="wordpress webdesigner barcelona">
+        <h2>When I build websites with WordPress, I have a special way of doing things.</h2>
+        <p>I use something called WordPress blocks a lot more than I use site builders. You might be wondering, "What's the difference?" Well, it's all about making your website run faster and smoother.</p>
+        <p>Think of WordPress blocks like building with LEGO. Each block is a piece of your website, like a picture, a paragraph, or a button. By putting these blocks together, I can build a whole website that's exactly how you want it. And the best part? It makes your website really fast. We all know how annoying it is to wait for a slow website to load, right? Using blocks helps avoid that.</p>
+        <p>Now, about plugins - those are extra bits you can add to your website to do more things. But here's the deal: even though they're useful, adding too many can make your website slow and clunky. It's like adding too much weight to a balloon; eventually, it's going to have a hard time staying up. So, I'm careful about not using too many plugins. I only pick the ones that are absolutely necessary for what you need. This way, your website stays fast, reliable, and easy to use.</p>
+        <p>In short, my approach is all about keeping things fast and simple. I use WordPress blocks to build your site efficiently and choose plugins wisely to avoid slowing things down. This means you get a website that's not just awesome to look at but also works like a charm. How cool is that?</p>
+
+
+
+		
+
+		
+
+
+		<h2>Send me a message:</h2>
+		<p>If you're ready for some WordPress action send me a message.</p>
+		<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<textarea name="message" placeholder="Your Message" required></textarea>
+			<button type="submit">Send</button>
+	   </form>
+
+
+	</main>
+
+<Footer>
+
+
+</Layout>
+
+
+
+<style>
+
+	body, html {
+		overflow-x: hidden;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer a {
+		display: block;
+		color: white;
+		margin: 22px;
+	}
+
+	.main_pic {
+		text-align: center;
+	}
+
+	#localseophoto {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+
+	footer {
+		color: white;
+	}
+
+
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 24px;
+		margin-top: 12px;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+
+	img	{
+		max-width: 100%;
+	}
+
+	span {
+		text-align: center;
+		display: block;
+	}
+
+
+	/* Overall form styling */
+form {
+    max-width: 100%; /* Sets a maximum width */
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px; /* Adds some space inside the form */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"] {
+    width: 97%; /* Full width */
+    padding: 10px; /* Comfortable text padding */
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+	font-size: 18px;
+	font-family: system-ui, sans-serif;
+}
+
+
+
+/* Styling for the submit button */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Same padding as input fields */
+    background-color: #8e44eb; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor changes to pointer */
+    font-size: 16px; /* Larger text size */
+}
+
+/* Change button style on hover */
+button:hover {
+    background-color: #ba91f2; /* Slightly darker green on hover */
+}
+
+/* Styling for the textarea */
+textarea {
+	font-size: 18px;
+    width: 97%; /* Full width to match the input fields */
+    padding: 10px; /* Comfortable padding */
+    margin-bottom: 15px; /* Space below the textarea */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    min-height: 100px; /* Minimum height */
+    resize: vertical; /* Allow vertical resizing only */
+	font-family: system-ui, sans-serif;
+}
+
+/* Change textarea style on focus */
+textarea:focus {
+    border-color: #4CAF50; /* Highlighted border color */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
+}
+</style>
