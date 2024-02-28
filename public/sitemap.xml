@@ -9,12 +9,22 @@
 
 <url>
   <loc>https://uxcelona.github.io/</loc>
-  <lastmod>2024-01-08T12:01:24+00:00</lastmod>
+  <lastmod>2024-02-28T16:54:49+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://uxcelona.github.io/wordpress-barcelona/</loc>
+  <lastmod>2024-02-28T16:54:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://uxcelona.github.io/about/</loc>
+  <lastmod>2024-02-28T16:54:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://uxcelona.github.io/free-svg-illustrations/</loc>
-  <lastmod>2024-01-08T12:01:24+00:00</lastmod>
+  <lastmod>2024-02-28T16:54:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

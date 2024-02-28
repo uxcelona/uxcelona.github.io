@@ -1,0 +1,129 @@
+---
+---
+
+<section id="project">
+  <div class="wrapper">
+    
+    <h2>Web Design Projects</h2>
+    <span class="h2_line">Websites I have created</span> 
+    
+
+    <div class="project">
+      <!-- Project Item -->
+      <div class="project_wrapper">
+        <div class="project_img">
+          <a href="https://claranovak.com/" target="_blank">
+            <div class="img_hover">
+              <img src="/images/portfolio_3.webp" alt="Clara Novak website design">
+              <div class="img_description">
+                <p class="title">Clara Novak Design 👩🏼‍💻</p>
+                <p class="desc">A vibrant and modern website design showcasing Clara Novak's portfolio.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Item -->
+      <div class="project_wrapper">
+        <div class="project_img">
+          <a href="https://astrobit.org/" target="_blank">
+            <div class="img_hover">
+              <img src="/images/portfolio_hosting.png" alt="Relentless Hosting website design">
+              <div class="img_description">
+                <p class="title">Relentless Hosting 🖥️</p>
+                <p class="desc">Highly reliable web hosting services for businesses of all sizes.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+
+
+#project{
+    margin: 92px 0;
+
+}
+
+.project_img img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title,
+.desc {
+  color: white;
+  margin: 0;
+  padding: 2px;
+}
+
+.title {
+  font-family: Recoleta;
+  font-weight: 600;
+}
+
+
+.project_wrapper {
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 850px) {   
+
+    /* Reintegrated Grid Layout */
+  .project {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 18px;
+  }
+
+
+  .project_wrapper {
+    margin-top: 0;
+  }
+
+  .project_img {
+    margin-top: 32px;
+    border: 2px solid #d8dee9;
+    border-radius: 5px;
+    height: 420px; /* Adjust height as necessary */
+  }
+
+  .project_img img, .project_img Image {  
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Hover Effect Styles */
+.project_img .img_hover {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.img_description {
+  position: absolute;
+  bottom: -100%; /* Start hidden below the image */
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: bottom 0.5s ease;
+}
+
+.project_img:hover .img_description {
+  bottom: 0;
+}
+</style>
+
+<script>
+// As mentioned, no JavaScript is needed for the hover effect.
+</script>
