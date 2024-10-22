@@ -1,0 +1,215 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+
+<Layout title="Cataluña Cafe Barcelona (Testimonial)">
+
+
+	<main>
+		<Header/>
+		<h1>Testimonial <span class="text-gradient">Cataluña</span> Cafe Barcelona</h1>
+		
+        <p>I’ve had the pleasure of working with Cataluña Cafe, a wonderful coffee shop in the heart of Barcelona. As a <a href="/">web designer</a>, I love meeting new people and collaborating to bring their vision to life.
+        <br>
+        With every project, I focus on understanding the client’s goals and helping them succeed through beautiful, functional design. For Cataluña Cafe, it was about capturing the essence of the city, the people, and the coffee culture that makes Barcelona so special.
+        <br> 
+        My passion is to contribute to making this city better, one project at a time.</p>
+
+        <img src="/barcelona-client-testimonial.webp" alt="barcelona client testimonial">
+
+        <h2>Using WordPress as the Ecosystem</h2>
+
+        <p>Working with Cataluña Cafe, a cozy and vibrant coffee shop in the heart of Barcelona, was an experience I truly enjoyed. As a web designer, nothing excites me more than connecting with new people, understanding their needs, and helping them achieve their goals through great design. Cataluña Cafe had a clear vision — they wanted a website that reflected the warmth and energy of their space while making it easy for customers to engage with their brand.
+        <br>  
+        For this project, I decided to use WordPress. It was the perfect choice for them because it allowed me to design a stunning, responsive website while giving the owners the flexibility they needed. WordPress makes it incredibly easy for them to update the menu, post about new events, or showcase their latest creations without needing to rely on a developer every time. I love knowing that I can empower clients like Cataluña Cafe to take control of their content with confidence.
+        <br>    
+        Being based in Barcelona, it means a lot to me to contribute to the growth of local businesses here. Helping a place like Cataluña Cafe thrive in this city is something I take pride in. I want to make Barcelona a little better every day through the work I do. With every website I create, I aim to combine great design with functionality, always keeping the client’s needs at the forefront. For Cataluña Cafe, it was all about making the website a true extension of their space—a welcoming, easy-to-navigate site that connects them with the people of Barcelona and beyond.</p>
+
+        <h2>Headless CMS</h2>
+
+        <p>
+            Working with Cataluña Cafe was not just about creating a beautiful website—it was about giving them the tools they needed to manage their online presence easily and effectively. I chose to use a headless CMS for this project, which may sound a bit technical, but I’ll break it down in simple terms.
+            <br>   
+            A headless CMS (Content Management System) is like a regular CMS, but without the front-end (the part of the website you see and interact with). In traditional systems, the content (like text, images, and videos) is tightly connected to the design of the website. With a headless CMS, the content is stored separately, and we can use any technology to display it however we want. This allows for greater flexibility, faster loading times, and a smoother experience for visitors.
+            <br>   
+            For Cataluña Cafe, I used WordPress as the headless CMS. It’s still the same easy-to-use WordPress you might be familiar with, where you can log in, add blog posts, update the menu, or change details, but the design and performance of the website are powered by another tool—Astro.js. Astro is a modern technology that makes websites incredibly fast by only loading the parts the visitor needs when they need them. So, the site looks great, works quickly, and customers enjoy a seamless experience.
+            <br>   
+            What’s great about this approach is that you, as the business owner, don’t need to worry about any of this complexity. You can still update your content through WordPress just like always, but behind the scenes, the website is more flexible, faster, and future-proof. This setup gives Cataluña Cafe the freedom to focus on what they do best—serving great coffee to the people of Barcelona—while the website stays efficient and easy to manage. 
+        </p>
+
+		<h2>Send me a message:</h2>
+		<p>If you're ready for some WordPress action send me a message.</p>
+		<form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="email" name="email" placeholder="Email" required>
+			<textarea name="message" placeholder="Your Message" required></textarea>
+			<button type="submit">Send</button>
+	   </form>
+
+
+	</main>
+
+<Footer>
+
+
+</Layout>
+
+
+
+<style>
+
+	body, html {
+		overflow-x: hidden;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	footer a {
+		display: block;
+		color: white;
+		margin: 22px;
+	}
+
+	.main_pic {
+		text-align: center;
+	}
+
+	#localseophoto {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+		object-fit: cover;
+		object-position: top;
+	}
+
+
+
+	footer {
+		color: white;
+	}
+
+
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+
+
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 24px;
+		margin-top: 12px;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+
+	img	{
+		max-width: 100%;
+	}
+
+	span {
+		text-align: center;
+		display: block;
+	}
+
+
+	/* Overall form styling */
+form {
+    max-width: 100%; /* Sets a maximum width */
+    margin: 0 auto; /* Centers the form on the page */
+    padding: 20px; /* Adds some space inside the form */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Styling for input fields */
+input[type="text"],
+input[type="email"] {
+    width: 97%; /* Full width */
+    padding: 10px; /* Comfortable text padding */
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+	font-size: 18px;
+	font-family: system-ui, sans-serif;
+}
+
+
+
+/* Styling for the submit button */
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Same padding as input fields */
+    background-color: #8e44eb; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor changes to pointer */
+    font-size: 16px; /* Larger text size */
+}
+
+/* Change button style on hover */
+button:hover {
+    background-color: #ba91f2; /* Slightly darker green on hover */
+}
+
+/* Styling for the textarea */
+textarea {
+	font-size: 18px;
+    width: 97%; /* Full width to match the input fields */
+    padding: 10px; /* Comfortable padding */
+    margin-bottom: 15px; /* Space below the textarea */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    min-height: 100px; /* Minimum height */
+    resize: vertical; /* Allow vertical resizing only */
+	font-family: system-ui, sans-serif;
+}
+
+/* Change textarea style on focus */
+textarea:focus {
+    border-color: #4CAF50; /* Highlighted border color */
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5); /* Subtle glow effect */
+}
+</style>
